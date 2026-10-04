@@ -1,0 +1,79 @@
+{
+  "$schema_version": "1.0.0",
+  "$notes": "Strategy playbooks synthesizing statute + case law + bureau patterns into actionable dispute progression guidance. These are the Strategy Agent's 'best practices' library — not law, but working knowledge of how to sequence disputes for maximum effect.",
+  "documents": [
+    {
+      "citation": "Playbook — When to Escalate to §1681n Willfulness",
+      "title": "Playbook: Willfulness Escalation Ladder",
+      "source_type": "playbook",
+      "jurisdiction": "Practitioner guidance",
+      "doc_date": "2026-09-25",
+      "applies_to": ["willful_noncompliance", "reinvestigation"],
+      "summary": "Strategy for progressing a dispute from ordinary reinvestigation (rounds 1-2) into willfulness territory (round 3+) under §1681n. Each escalation step builds the evidentiary record needed to survive summary judgment and support statutory + punitive damages.",
+      "source_url": "internal://playbook/willfulness-escalation",
+      "chunks": [
+        {
+          "chunk_type": "playbook",
+          "position": 1,
+          "citation_label": "Round 1 — Establish the Dispute",
+          "applies_to": ["reinvestigation"],
+          "content": "Round 1 goal: create the initial dispute record. Send a plain-language dispute letter to the CRA with (1) specific identification of the item (creditor, account number partial, date), (2) specific factual assertion of what is inaccurate, and (3) any supporting documentation. Expect verification. Do NOT lead with legal citations — a §1681n case can be built from a lay dispute the CRA failed to investigate. Save the return receipt or delivery confirmation."
+        },
+        {
+          "chunk_type": "playbook",
+          "position": 2,
+          "citation_label": "Round 2 — Attack Round 1's Failure",
+          "applies_to": ["reinvestigation", "accuracy_procedures"],
+          "content": "Round 2 goal: establish that the CRA's round-1 investigation was inadequate. Reference the specific round-1 dispute (attach a copy), note what documentation you provided, and identify what the CRA/furnisher failed to address. Add specifics the furnisher would need to actually investigate (dates of alleged transactions, request for account history, etc.). This round can also include a direct §1681s-2(b) letter to the furnisher with all documentation. Now the paper trail shows two separate opportunities for reasonable investigation."
+        },
+        {
+          "chunk_type": "playbook",
+          "position": 3,
+          "citation_label": "Round 3 — Willfulness Notice",
+          "applies_to": ["willful_noncompliance", "reinvestigation"],
+          "content": "Round 3 goal: put the CRA and furnisher on express notice that continued verification constitutes willful noncompliance under §1681n and Safeco v. Burr. Reference (1) both prior disputes, (2) specific evidence provided that was ignored, (3) the Cortez v. Trans Union standard for reasonable reinvestigation, and (4) the §1681n statutory damages exposure. This letter should also include a CFPB complaint copy. The goal here is settlement — CRAs and furnishers often delete rather than fight documented willfulness cases at this point."
+        },
+        {
+          "chunk_type": "playbook",
+          "position": 4,
+          "citation_label": "Round 4 — Litigation Readiness",
+          "applies_to": ["willful_noncompliance"],
+          "content": "Round 4 goal: attorney involvement and litigation preparation. If rounds 1-3 have not resolved the item, engage an FCRA plaintiff attorney (most work on contingency + fee-shifting under §1681n(a)(3)). At this point the file should contain: three prior dispute letters with delivery confirmation, all CRA responses, any documentation submitted, and the CFPB complaint. This is the file structure that supports individual §1681n claims and can be worked into class actions where systemic bureau practices are documented."
+        }
+      ]
+    },
+    {
+      "citation": "Playbook — FCRA vs FDCPA: When to Use Which",
+      "title": "Playbook: FCRA vs FDCPA Strategy Selection",
+      "source_type": "playbook",
+      "jurisdiction": "Practitioner guidance",
+      "doc_date": "2026-09-25",
+      "applies_to": ["debt_validation", "furnisher_duty", "collection"],
+      "summary": "Guidance for choosing between FCRA and FDCPA remedies. FCRA covers what's on the credit report; FDCPA covers how a debt collector behaves. Both often apply simultaneously to third-party collection tradelines, and combining them creates layered pressure.",
+      "source_url": "internal://playbook/fcra-fdcpa-selection",
+      "chunks": [
+        {
+          "chunk_type": "playbook",
+          "position": 1,
+          "citation_label": "Scope Differences",
+          "applies_to": ["debt_validation", "collection"],
+          "content": "FCRA applies to any furnisher and any CRA — original creditors, third-party collectors, debt buyers. FDCPA applies ONLY to third-party debt collectors (defined at §1692a(6)) — it does NOT cover original creditors collecting their own debts. So an original-creditor charge-off gets FCRA treatment only, while a collector-owned account (Midland, PRA, LVNV) gets both. Debt buyers who service accounts also fall under FDCPA."
+        },
+        {
+          "chunk_type": "playbook",
+          "position": 2,
+          "citation_label": "Combined Attack on Collectors",
+          "applies_to": ["debt_validation", "collection", "furnisher_duty"],
+          "content": "For a third-party collection tradeline, the strongest strategy is a two-track attack: (1) FCRA §1681i dispute to the bureau, AND (2) FDCPA §1692g validation demand direct to the collector. The FDCPA demand triggers a cease-collection obligation until validation is provided. Collectors that continue to report to CRAs without validation are then simultaneously (a) failing to communicate the dispute status under §1692e(8) and (b) furnishing information they know is disputed under §1681s-2(a)(3). Two independent violation theories from one letter pair."
+        },
+        {
+          "chunk_type": "playbook",
+          "position": 3,
+          "citation_label": "Statute of Limitations",
+          "applies_to": ["debt_validation", "collection"],
+          "content": "FDCPA claims have a 1-year statute of limitations from the date of violation. FCRA claims have 2 years from discovery or 5 years from violation (whichever is earlier). Combined strategy: file FDCPA claims quickly when specific collector conduct occurs (each collection letter, each phone call, each report submission is a fresh violation). FCRA claims can be developed over multiple dispute rounds and remain viable across longer timelines."
+        }
+      ]
+    }
+  ]
+}

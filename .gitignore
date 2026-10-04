@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Build artifacts
+build/
+dist/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local test data
+*.db
+*.sqlite
+*.sqlite3
+
+# Secrets — scripts/example_rag.py reads VOYAGE_API_KEY from env, never from a file
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Scratch
+scratch/
+tmp/

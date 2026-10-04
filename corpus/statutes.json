@@ -1,0 +1,444 @@
+{
+  "$schema_version": "1.0.0",
+  "$notes": "FCRA + FDCPA statute corpus. Each document is one statute section; each chunk is one subsection or logical unit within that section. Text is derived from the authoritative source at source_url. Tags follow the vocabulary in TAG_VOCABULARY.md.",
+  "documents": [
+    {
+      "citation": "15 U.S.C. §1681a",
+      "title": "Definitions; rules of construction",
+      "source_type": "statute",
+      "jurisdiction": "Federal",
+      "doc_date": "1970-10-26",
+      "applies_to": ["definitions"],
+      "summary": "Defines core FCRA terms: consumer, consumer report, consumer reporting agency, file, furnisher, employment purposes. Any dispute analysis starts here to confirm the entity/data at issue meets the statutory definitions.",
+      "source_url": "https://www.law.cornell.edu/uscode/text/15/1681a",
+      "chunks": [
+        {
+          "chunk_type": "subsection",
+          "position": 1,
+          "citation_label": "(d)",
+          "applies_to": ["definitions"],
+          "content": "The term 'consumer report' means any written, oral, or other communication of any information by a consumer reporting agency bearing on a consumer's credit worthiness, credit standing, credit capacity, character, general reputation, personal characteristics, or mode of living which is used or expected to be used or collected in whole or in part for the purpose of serving as a factor in establishing the consumer's eligibility for credit or insurance to be used primarily for personal, family, or household purposes; employment purposes; or any other purpose authorized under section 1681b of this title."
+        },
+        {
+          "chunk_type": "subsection",
+          "position": 2,
+          "citation_label": "(f)",
+          "applies_to": ["definitions"],
+          "content": "The term 'consumer reporting agency' means any person which, for monetary fees, dues, or on a cooperative nonprofit basis, regularly engages in whole or in part in the practice of assembling or evaluating consumer credit information or other information on consumers for the purpose of furnishing consumer reports to third parties. Equifax, Experian, and TransUnion are the three nationwide consumer reporting agencies described in section 1681a(p)."
+        },
+        {
+          "chunk_type": "subsection",
+          "position": 3,
+          "citation_label": "(g)",
+          "applies_to": ["definitions"],
+          "content": "The term 'file', when used in connection with information on any consumer, means all of the information on that consumer recorded and retained by a consumer reporting agency regardless of how the information is stored."
+        }
+      ]
+    },
+    {
+      "citation": "15 U.S.C. §1681b",
+      "title": "Permissible purposes of consumer reports",
+      "source_type": "statute",
+      "jurisdiction": "Federal",
+      "doc_date": "1970-10-26",
+      "applies_to": ["permissible_purpose", "hard_inquiry_unauthorized"],
+      "summary": "Lists the exhaustive set of purposes for which a CRA may furnish a consumer report. An inquiry made without a permissible purpose is a violation and grounds for §1681n or §1681o damages.",
+      "source_url": "https://www.law.cornell.edu/uscode/text/15/1681b",
+      "chunks": [
+        {
+          "chunk_type": "subsection",
+          "position": 1,
+          "citation_label": "(a)(3)",
+          "applies_to": ["permissible_purpose", "hard_inquiry_unauthorized"],
+          "content": "A consumer reporting agency may furnish a consumer report under the following circumstances and no other: (A) in response to the order of a court or a Federal grand jury subpoena; or (B) in accordance with the written instructions of the consumer to whom it relates; or (F) to a person which it has reason to believe intends to use the information otherwise to review an account of the consumer to determine whether the consumer continues to meet the terms of the account, or in connection with a credit transaction involving the consumer on whom the information is to be furnished and involving the extension of credit to, or review or collection of an account of, the consumer."
+        },
+        {
+          "chunk_type": "subsection",
+          "position": 2,
+          "citation_label": "(f)",
+          "applies_to": ["permissible_purpose", "hard_inquiry_unauthorized"],
+          "content": "A person shall not use or obtain a consumer report for any purpose unless the consumer report is obtained for a purpose for which the consumer report is authorized to be furnished under this section; and the purpose is certified in accordance with section 1681e of this title by a prospective user of the report through a general or specific certification. Pulling a report without one of the permissible purposes in subsection (a) is a violation."
+        }
+      ]
+    },
+    {
+      "citation": "15 U.S.C. §1681c",
+      "title": "Requirements relating to information contained in consumer reports",
+      "source_type": "statute",
+      "jurisdiction": "Federal",
+      "doc_date": "1970-10-26",
+      "applies_to": ["obsolete", "accuracy_procedures"],
+      "summary": "Establishes what information may NOT be included in a consumer report, most importantly the 7-year obsolescence rule for adverse items (10 years for bankruptcy). Central to any dispute of an aged negative item.",
+      "source_url": "https://www.law.cornell.edu/uscode/text/15/1681c",
+      "chunks": [
+        {
+          "chunk_type": "subsection",
+          "position": 1,
+          "citation_label": "(a)(1)",
+          "applies_to": ["obsolete"],
+          "content": "Except as authorized under subsection (b), no consumer reporting agency may make any consumer report containing any of the following items of information: Cases under title 11 or under the Bankruptcy Act that, from the date of entry of the order for relief or the date of adjudication, as the case may be, antedate the report by more than 10 years."
+        },
+        {
+          "chunk_type": "subsection",
+          "position": 2,
+          "citation_label": "(a)(2)",
+          "applies_to": ["obsolete"],
+          "content": "Civil suits, civil judgments, and records of arrest that, from date of entry, antedate the report by more than seven years or until the governing statute of limitations has expired, whichever is the longer period."
+        },
+        {
+          "chunk_type": "subsection",
+          "position": 3,
+          "citation_label": "(a)(3)",
+          "applies_to": ["obsolete"],
+          "content": "Paid tax liens which, from date of payment, antedate the report by more than seven years."
+        },
+        {
+          "chunk_type": "subsection",
+          "position": 4,
+          "citation_label": "(a)(4)",
+          "applies_to": ["obsolete", "collection", "charge_off"],
+          "content": "Accounts placed for collection or charged to profit and loss which antedate the report by more than seven years. This is the core obsolescence rule for collection accounts and charge-offs — the 7-year clock runs from the date of first delinquency that immediately preceded the collection activity, per subsection (c)(1)."
+        },
+        {
+          "chunk_type": "subsection",
+          "position": 5,
+          "citation_label": "(a)(5)",
+          "applies_to": ["obsolete"],
+          "content": "Records of arrest, indictment, or conviction of crime which, from date of disposition, release, or parole, antedate the report by more than seven years."
+        },
+        {
+          "chunk_type": "subsection",
+          "position": 6,
+          "citation_label": "(a)(6)",
+          "applies_to": ["obsolete"],
+          "content": "Any other adverse item of information, other than records of convictions of crimes which antedates the report by more than seven years. This is the catch-all obsolescence rule — any adverse item over seven years old must be excluded, subject to exceptions in subsection (b)."
+        },
+        {
+          "chunk_type": "subsection",
+          "position": 7,
+          "citation_label": "(c)(1)",
+          "applies_to": ["obsolete", "collection", "charge_off"],
+          "content": "The 7-year period referred to in paragraphs (4) and (6) of subsection (a) shall begin, with respect to any delinquent account that is placed for collection (internally or by referral to a third party, whichever is earlier), charged to profit and loss, or subjected to any similar action, upon the expiration of the 180-day period beginning on the date of the commencement of the delinquency which immediately preceded the collection activity. In practice: the clock runs from the Date of First Delinquency (DOFD), NOT from the date of last payment or the date the debt was sold to a collector. Furnishers may not restart the clock by re-aging."
+        },
+        {
+          "chunk_type": "subsection",
+          "position": 8,
+          "citation_label": "(f)",
+          "applies_to": ["accuracy_procedures", "reinvestigation"],
+          "content": "If a consumer reporting agency is notified pursuant to section 1681s-2(a)(3) of this title that information regarding a consumer was furnished to the agency is disputed by the consumer, the agency shall indicate that fact in each consumer report that includes the disputed information."
+        }
+      ]
+    },
+    {
+      "citation": "15 U.S.C. §1681c-2",
+      "title": "Block of information resulting from identity theft",
+      "source_type": "statute",
+      "jurisdiction": "Federal",
+      "doc_date": "2003-12-04",
+      "applies_to": ["identity_theft"],
+      "summary": "Requires CRAs to block information that a consumer identifies as resulting from identity theft, within four business days of receiving an identity theft report, an FTC affidavit, and identification of the information. Faster and stronger than the ordinary §611 reinvestigation.",
+      "source_url": "https://www.law.cornell.edu/uscode/text/15/1681c-2",
+      "chunks": [
+        {
+          "chunk_type": "subsection",
+          "position": 1,
+          "citation_label": "(a)",
+          "applies_to": ["identity_theft"],
+          "content": "Except as otherwise provided in this section, a consumer reporting agency shall block the reporting of any information in the file of a consumer that the consumer identifies as information that resulted from an alleged identity theft, not later than 4 business days after the date of receipt by such agency of— (1) appropriate proof of the identity of the consumer; (2) a copy of an identity theft report; (3) the identification of such information by the consumer; and (4) a statement by the consumer that the information is not information relating to any transaction by the consumer."
+        },
+        {
+          "chunk_type": "subsection",
+          "position": 2,
+          "citation_label": "(b)",
+          "applies_to": ["identity_theft"],
+          "content": "A consumer reporting agency shall promptly notify the furnisher of information identified by the consumer under subsection (a) that the information may be a result of identity theft; that an identity theft report has been filed; that a block has been requested; and of the effective dates of the block."
+        }
+      ]
+    },
+    {
+      "citation": "15 U.S.C. §1681e",
+      "title": "Compliance procedures",
+      "source_type": "statute",
+      "jurisdiction": "Federal",
+      "doc_date": "1970-10-26",
+      "applies_to": ["accuracy_procedures", "permissible_purpose"],
+      "summary": "Requires CRAs to maintain reasonable procedures to (1) avoid furnishing reports for impermissible purposes and (2) assure maximum possible accuracy of the information concerning the individual about whom the report relates. §1681e(b) is the primary basis for accuracy-based claims.",
+      "source_url": "https://www.law.cornell.edu/uscode/text/15/1681e",
+      "chunks": [
+        {
+          "chunk_type": "subsection",
+          "position": 1,
+          "citation_label": "(a)",
+          "applies_to": ["permissible_purpose"],
+          "content": "Every consumer reporting agency shall maintain reasonable procedures designed to avoid violations of section 1681c of this title and to limit the furnishing of consumer reports to the purposes listed under section 1681b of this title. These procedures shall require that prospective users of the information identify themselves, certify the purposes for which the information is sought, and certify that the information will be used for no other purpose."
+        },
+        {
+          "chunk_type": "subsection",
+          "position": 2,
+          "citation_label": "(b)",
+          "applies_to": ["accuracy_procedures"],
+          "content": "Whenever a consumer reporting agency prepares a consumer report it shall follow reasonable procedures to assure maximum possible accuracy of the information concerning the individual about whom the report relates. This is the linchpin duty for accuracy claims — failure to follow reasonable procedures that would have caught an inaccuracy is actionable, and courts apply an objective reasonableness standard weighed against the burden and volume."
+        }
+      ]
+    },
+    {
+      "citation": "15 U.S.C. §1681g",
+      "title": "Disclosures to consumers",
+      "source_type": "statute",
+      "jurisdiction": "Federal",
+      "doc_date": "1970-10-26",
+      "applies_to": ["disclosure_to_consumer"],
+      "summary": "Requires CRAs to disclose to a consumer, upon request, all information in the consumer's file at the time of the request, and the sources of the information. The right to see one's own file is foundational to disputing it.",
+      "source_url": "https://www.law.cornell.edu/uscode/text/15/1681g",
+      "chunks": [
+        {
+          "chunk_type": "subsection",
+          "position": 1,
+          "citation_label": "(a)(1)",
+          "applies_to": ["disclosure_to_consumer"],
+          "content": "Every consumer reporting agency shall, upon request, and subject to section 1681h(a)(1) of this title, clearly and accurately disclose to the consumer: all information in the consumer's file at the time of the request, except that if the consumer has not disputed the identity of the consumer to whom the information relates, no information need be disclosed if it is or has been so obsolete that it cannot lawfully be furnished under section 1681c."
+        },
+        {
+          "chunk_type": "subsection",
+          "position": 2,
+          "citation_label": "(a)(2)",
+          "applies_to": ["disclosure_to_consumer"],
+          "content": "The sources of the information; except that the sources of information acquired solely for use in preparing an investigative consumer report and actually used for no other purpose need not be disclosed."
+        },
+        {
+          "chunk_type": "subsection",
+          "position": 3,
+          "citation_label": "(a)(3)",
+          "applies_to": ["disclosure_to_consumer"],
+          "content": "Identification of each person that procured a consumer report for employment purposes during the 2-year period preceding the request, and for any other purpose during the 1-year period preceding the request. This is what makes hard-inquiry disputes possible — the consumer can see who pulled the report."
+        }
+      ]
+    },
+    {
+      "citation": "15 U.S.C. §1681i",
+      "title": "Procedure in case of disputed accuracy",
+      "source_type": "statute",
+      "jurisdiction": "Federal",
+      "doc_date": "1970-10-26",
+      "applies_to": ["reinvestigation", "accuracy_procedures"],
+      "summary": "The core dispute mechanism. Requires CRAs to reasonably reinvestigate disputed information within 30 days, notify the furnisher within 5 business days, and delete or modify information that is inaccurate, incomplete, or cannot be verified. Every letter-based dispute invokes this section.",
+      "source_url": "https://www.law.cornell.edu/uscode/text/15/1681i",
+      "chunks": [
+        {
+          "chunk_type": "subsection",
+          "position": 1,
+          "citation_label": "(a)(1)(A)",
+          "applies_to": ["reinvestigation"],
+          "content": "Subject to subsection (f) and except as provided in subsection (g), if the completeness or accuracy of any item of information contained in a consumer's file at a consumer reporting agency is disputed by the consumer and the consumer notifies the agency directly, or indirectly through a reseller, of such dispute, the agency shall, free of charge, conduct a reasonable reinvestigation to determine whether the disputed information is inaccurate and record the current status of the disputed information, or delete the item from the file in accordance with paragraph (5), before the end of the 30-day period beginning on the date on which the agency receives the notice of the dispute from the consumer or reseller."
+        },
+        {
+          "chunk_type": "subsection",
+          "position": 2,
+          "citation_label": "(a)(1)(B)",
+          "applies_to": ["reinvestigation"],
+          "content": "Except as provided in subparagraph (C), the 30-day period described in subparagraph (A) may be extended for not more than 15 additional days if the consumer reporting agency receives information from the consumer during that 30-day period that is relevant to the reinvestigation. Total maximum reinvestigation period is therefore 45 days."
+        },
+        {
+          "chunk_type": "subsection",
+          "position": 3,
+          "citation_label": "(a)(2)(A)",
+          "applies_to": ["reinvestigation", "furnisher_duty"],
+          "content": "Before the expiration of the 5-business-day period beginning on the date on which a consumer reporting agency receives notice of a dispute from any consumer or a reseller in accordance with paragraph (1), the agency shall provide notification of the dispute to any person who provided any item of information in dispute, at the address and in the manner established with the person. The notice shall include all relevant information regarding the dispute that the agency has received from the consumer or reseller. Failure to forward all relevant information to the furnisher is a common basis for a Cortez v. Trans Union-style claim."
+        },
+        {
+          "chunk_type": "subsection",
+          "position": 4,
+          "citation_label": "(a)(3)(A)",
+          "applies_to": ["reinvestigation"],
+          "content": "Notwithstanding paragraph (1), a consumer reporting agency may terminate a reinvestigation of information disputed by a consumer under that paragraph if the agency reasonably determines that the dispute by the consumer is frivolous or irrelevant, including by reason of a failure by a consumer to provide sufficient information to investigate the disputed information. However, courts have narrowly construed 'frivolous' — a bona fide dispute stated with specificity cannot be dismissed this way."
+        },
+        {
+          "chunk_type": "subsection",
+          "position": 5,
+          "citation_label": "(a)(4)",
+          "applies_to": ["reinvestigation"],
+          "content": "In conducting any reinvestigation under paragraph (1) with respect to disputed information in the file of any consumer, the consumer reporting agency shall review and consider all relevant information submitted by the consumer in the period described in paragraph (1)(A) with respect to such disputed information."
+        },
+        {
+          "chunk_type": "subsection",
+          "position": 6,
+          "citation_label": "(a)(5)(A)",
+          "applies_to": ["reinvestigation", "verification_failure"],
+          "content": "If, after any reinvestigation under paragraph (1) of any information disputed by a consumer, an item of the information is found to be inaccurate or incomplete or cannot be verified, the consumer reporting agency shall (i) promptly delete that item of information from the file of the consumer, or modify that item of information, as appropriate, based on the results of the reinvestigation; and (ii) promptly notify the furnisher of that information that the information has been modified or deleted from the file of the consumer. This is the 'delete if unverifiable' rule — a key leverage point for consumers."
+        },
+        {
+          "chunk_type": "subsection",
+          "position": 7,
+          "citation_label": "(a)(5)(B)(i)",
+          "applies_to": ["reinvestigation"],
+          "content": "If any information is deleted from a consumer's file pursuant to subparagraph (A), the information may not be reinserted in the file by the consumer reporting agency unless the person who furnishes the information certifies that the information is complete and accurate. This bars silent reinsertion — a common bureau tactic that violates §1681i."
+        },
+        {
+          "chunk_type": "subsection",
+          "position": 8,
+          "citation_label": "(a)(6)(A)",
+          "applies_to": ["reinvestigation"],
+          "content": "A consumer reporting agency shall provide written notice to a consumer of the results of a reinvestigation under this subsection not later than 5 business days after the completion of the reinvestigation, by mail or, if authorized by the consumer for that purpose, by other means available to the agency."
+        }
+      ]
+    },
+    {
+      "citation": "15 U.S.C. §1681n",
+      "title": "Civil liability for willful noncompliance",
+      "source_type": "statute",
+      "jurisdiction": "Federal",
+      "doc_date": "1970-10-26",
+      "applies_to": ["willful_noncompliance"],
+      "summary": "Provides statutory damages of $100 to $1,000 per willful violation, plus actual damages, punitive damages, and attorney's fees. Willfulness under Safeco v. Burr includes reckless disregard of an objectively unreasonable interpretation of the FCRA. Escalation to willfulness typically occurs after 2-3 failed rounds establishing the bureau's knowledge.",
+      "source_url": "https://www.law.cornell.edu/uscode/text/15/1681n",
+      "chunks": [
+        {
+          "chunk_type": "subsection",
+          "position": 1,
+          "citation_label": "(a)(1)(A)",
+          "applies_to": ["willful_noncompliance"],
+          "content": "Any person who willfully fails to comply with any requirement imposed under this subchapter with respect to any consumer is liable to that consumer in an amount equal to the sum of any actual damages sustained by the consumer as a result of the failure or damages of not less than $100 and not more than $1,000. Statutory damages are available without proof of actual harm — this is central to FCRA class actions and individual leverage."
+        },
+        {
+          "chunk_type": "subsection",
+          "position": 2,
+          "citation_label": "(a)(2)",
+          "applies_to": ["willful_noncompliance"],
+          "content": "Such amount of punitive damages as the court may allow. Punitive damages are available in willful noncompliance cases and can substantially exceed statutory damages when the conduct is egregious."
+        },
+        {
+          "chunk_type": "subsection",
+          "position": 3,
+          "citation_label": "(a)(3)",
+          "applies_to": ["willful_noncompliance"],
+          "content": "In the case of any successful action to enforce any liability under this section, the costs of the action together with reasonable attorney's fees as determined by the court. Fee-shifting makes FCRA cases economically viable for consumer attorneys, driving the enforcement ecosystem."
+        }
+      ]
+    },
+    {
+      "citation": "15 U.S.C. §1681o",
+      "title": "Civil liability for negligent noncompliance",
+      "source_type": "statute",
+      "jurisdiction": "Federal",
+      "doc_date": "1970-10-26",
+      "applies_to": ["negligent_noncompliance"],
+      "summary": "Provides actual damages plus attorney's fees for negligent (non-willful) FCRA violations. The default enforcement mechanism when willfulness cannot be shown but a violation occurred and the consumer was harmed.",
+      "source_url": "https://www.law.cornell.edu/uscode/text/15/1681o",
+      "chunks": [
+        {
+          "chunk_type": "subsection",
+          "position": 1,
+          "citation_label": "(a)(1)",
+          "applies_to": ["negligent_noncompliance"],
+          "content": "Any person who is negligent in failing to comply with any requirement imposed under this subchapter with respect to any consumer is liable to that consumer in an amount equal to the sum of any actual damages sustained by the consumer as a result of the failure. Unlike §1681n, negligent noncompliance requires proof of actual damages — emotional distress, denied credit, higher interest rates, or lost opportunities."
+        },
+        {
+          "chunk_type": "subsection",
+          "position": 2,
+          "citation_label": "(a)(2)",
+          "applies_to": ["negligent_noncompliance"],
+          "content": "In the case of any successful action to enforce any liability under this section, the costs of the action together with reasonable attorney's fees as determined by the court."
+        }
+      ]
+    },
+    {
+      "citation": "15 U.S.C. §1681s-2",
+      "title": "Responsibilities of furnishers of information to consumer reporting agencies",
+      "source_type": "statute",
+      "jurisdiction": "Federal",
+      "doc_date": "1996-09-30",
+      "applies_to": ["furnisher_duty", "accuracy_procedures", "reinvestigation"],
+      "summary": "Imposes duties on furnishers (creditors, collectors) to provide accurate information and to investigate disputes forwarded by CRAs. §1681s-2(b) creates the private right of action against furnishers — critical because they, not just the bureaus, are often the real source of inaccurate reporting.",
+      "source_url": "https://www.law.cornell.edu/uscode/text/15/1681s-2",
+      "chunks": [
+        {
+          "chunk_type": "subsection",
+          "position": 1,
+          "citation_label": "(a)(1)(A)",
+          "applies_to": ["furnisher_duty", "accuracy_procedures"],
+          "content": "A person shall not furnish any information relating to a consumer to any consumer reporting agency if the person knows or has reasonable cause to believe that the information is inaccurate. Note: no private right of action under (a) — enforcement is via CFPB/FTC/state AGs only."
+        },
+        {
+          "chunk_type": "subsection",
+          "position": 2,
+          "citation_label": "(a)(2)",
+          "applies_to": ["furnisher_duty", "accuracy_procedures"],
+          "content": "A person who regularly and in the ordinary course of business furnishes information to one or more consumer reporting agencies about the person's transactions or experiences with any consumer shall not furnish information relating to the consumer that the person has determined is not complete or accurate, and shall promptly notify the consumer reporting agency of that determination and provide corrections."
+        },
+        {
+          "chunk_type": "subsection",
+          "position": 3,
+          "citation_label": "(b)(1)",
+          "applies_to": ["furnisher_duty", "reinvestigation"],
+          "content": "After receiving notice pursuant to section 1681i(a)(2) of this title of a dispute with regard to the completeness or accuracy of any information provided by a person to a consumer reporting agency, the person shall (A) conduct an investigation with respect to the disputed information; (B) review all relevant information provided by the consumer reporting agency; (C) report the results of the investigation to the consumer reporting agency; (D) if the investigation finds that the information is incomplete or inaccurate, report those results to all other consumer reporting agencies to which the person furnished the information and that compile and maintain files on consumers on a nationwide basis; and (E) if an item of information is found to be inaccurate or incomplete or cannot be verified, modify, delete, or permanently block reporting of that item. THIS subsection creates the private right of action against furnishers."
+        },
+        {
+          "chunk_type": "subsection",
+          "position": 4,
+          "citation_label": "(b)(2)",
+          "applies_to": ["furnisher_duty", "reinvestigation"],
+          "content": "A person shall complete all investigations, reviews, and reports required under paragraph (1) regarding information provided by the person to a consumer reporting agency, before the expiration of the period under section 1681i(a)(1) of this title within which the consumer reporting agency is required to complete actions required by that section regarding that information. The furnisher operates on the same 30-day clock as the CRA."
+        }
+      ]
+    },
+    {
+      "citation": "15 U.S.C. §1692e",
+      "title": "False or misleading representations",
+      "source_type": "statute",
+      "jurisdiction": "Federal",
+      "doc_date": "1977-09-20",
+      "applies_to": ["false_representation", "collection"],
+      "summary": "FDCPA. Prohibits debt collectors from using any false, deceptive, or misleading representation or means in connection with the collection of any debt. Applies to third-party collectors, not original creditors. Reporting an inaccurate debt to a CRA can itself be a false representation.",
+      "source_url": "https://www.law.cornell.edu/uscode/text/15/1692e",
+      "chunks": [
+        {
+          "chunk_type": "subsection",
+          "position": 1,
+          "citation_label": "(2)(A)",
+          "applies_to": ["false_representation", "collection"],
+          "content": "A debt collector may not use any false, deceptive, or misleading representation or means in connection with the collection of any debt. Without limiting the general application of the foregoing, the following conduct is a violation: the false representation of the character, amount, or legal status of any debt. This covers inflated balances, misidentified debts, and time-barred debts pursued as if they were enforceable."
+        },
+        {
+          "chunk_type": "subsection",
+          "position": 2,
+          "citation_label": "(8)",
+          "applies_to": ["false_representation", "collection", "furnisher_duty"],
+          "content": "Communicating or threatening to communicate to any person credit information which is known or which should be known to be false, including the failure to communicate that a disputed debt is disputed. A collector that reports a debt to CRAs without also reporting that the consumer has disputed it violates this subsection."
+        },
+        {
+          "chunk_type": "subsection",
+          "position": 3,
+          "citation_label": "(10)",
+          "applies_to": ["false_representation", "collection"],
+          "content": "The use of any false representation or deceptive means to collect or attempt to collect any debt or to obtain information concerning a consumer. A broad catch-all — courts assess from the perspective of the 'least sophisticated consumer'."
+        }
+      ]
+    },
+    {
+      "citation": "15 U.S.C. §1692g",
+      "title": "Validation of debts",
+      "source_type": "statute",
+      "jurisdiction": "Federal",
+      "doc_date": "1977-09-20",
+      "applies_to": ["debt_validation", "collection"],
+      "summary": "FDCPA. Requires debt collectors to provide written validation of a debt upon consumer request within 30 days of the initial communication. Collection activities must cease until validation is provided. Central to disputing zombie debt and mis-attributed collection accounts.",
+      "source_url": "https://www.law.cornell.edu/uscode/text/15/1692g",
+      "chunks": [
+        {
+          "chunk_type": "subsection",
+          "position": 1,
+          "citation_label": "(a)",
+          "applies_to": ["debt_validation", "collection"],
+          "content": "Within five days after the initial communication with a consumer in connection with the collection of any debt, a debt collector shall, unless the following information is contained in the initial communication or the consumer has paid the debt, send the consumer a written notice containing: (1) the amount of the debt; (2) the name of the creditor to whom the debt is owed; (3) a statement that unless the consumer, within thirty days after receipt of the notice, disputes the validity of the debt, or any portion thereof, the debt will be assumed to be valid by the debt collector; (4) a statement that if the consumer notifies the debt collector in writing within the thirty-day period that the debt, or any portion thereof, is disputed, the debt collector will obtain verification of the debt or a copy of a judgment against the consumer and a copy of such verification or judgment will be mailed to the consumer by the debt collector; and (5) a statement that, upon the consumer's written request within the thirty-day period, the debt collector will provide the consumer with the name and address of the original creditor, if different from the current creditor."
+        },
+        {
+          "chunk_type": "subsection",
+          "position": 2,
+          "citation_label": "(b)",
+          "applies_to": ["debt_validation", "collection", "zombie_debt"],
+          "content": "If the consumer notifies the debt collector in writing within the thirty-day period described in subsection (a) that the debt, or any portion thereof, is disputed, or that the consumer requests the name and address of the original creditor, the debt collector shall cease collection of the debt, or any disputed portion thereof, until the debt collector obtains verification of the debt or a copy of a judgment, or the name and address of the original creditor, and a copy of such verification or judgment, or name and address of the original creditor, is mailed to the consumer by the debt collector. This 'cease collection' rule is the leverage — a collector that cannot produce validation must stop collecting. Continued reporting to CRAs after a valid dispute has been sent, without validation, is a violation."
+        }
+      ]
+    }
+  ]
+}

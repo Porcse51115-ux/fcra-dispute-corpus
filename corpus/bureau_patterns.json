@@ -1,0 +1,91 @@
+{
+  "$schema_version": "1.0.0",
+  "$notes": "Documented behavior patterns of Equifax, Experian, and TransUnion drawn from CFPB enforcement actions, published examination findings, and aggregate consumer complaint data. These chunks help the Strategy Agent anticipate bureau responses and calibrate expectations for each dispute round.",
+  "documents": [
+    {
+      "citation": "Bureau Pattern — Automated e-OSCAR Dispute Handling",
+      "title": "Pattern: Automated e-OSCAR reduces bureau disputes to 3-digit codes",
+      "source_type": "bureau_pattern",
+      "jurisdiction": "Industry practice (all three nationwide CRAs)",
+      "doc_date": "2022-11-30",
+      "applies_to": ["reinvestigation", "accuracy_procedures", "furnisher_duty"],
+      "summary": "Documented in CFPB Supervisory Highlights and confirmed in Cortez v. Trans Union: nationwide bureaus process most disputes through the e-OSCAR system, which converts consumer-submitted dispute content into 2-3 digit dispute codes forwarded to the furnisher. Consumer documentation and narrative context are stripped from the transmitted dispute.",
+      "source_url": "https://www.consumerfinance.gov/data-research/research-reports/supervisory-highlights-consumer-reporting-special-edition/",
+      "chunks": [
+        {
+          "chunk_type": "pattern",
+          "position": 1,
+          "citation_label": "Observation",
+          "applies_to": ["reinvestigation", "accuracy_procedures"],
+          "content": "All three nationwide CRAs (Equifax, Experian, TransUnion) route disputes through the automated e-OSCAR system, which categorizes disputes into a small set of predefined codes (e.g., '106 - Not his/hers', '111 - Disputes present/previous account status/history'). Consumer documentation, letters, and specific factual assertions are NOT transmitted to the furnisher through e-OSCAR. This means the furnisher receives only a code, not the substance of the dispute — creating a structural mismatch between what the consumer said and what the furnisher is asked to investigate."
+        },
+        {
+          "chunk_type": "pattern",
+          "position": 2,
+          "citation_label": "Strategic Implication",
+          "applies_to": ["reinvestigation", "furnisher_duty"],
+          "content": "Because e-OSCAR strips narrative context, first-round disputes often fail even when the consumer has strong documentation — the furnisher doesn't see the documentation, only the code. Strategy: send the same documentation DIRECTLY to the furnisher under §1681s-2(b) in parallel to the bureau dispute. This creates a documented record that the furnisher had the actual materials, which supports willfulness claims later if the furnisher continues to verify."
+        },
+        {
+          "chunk_type": "pattern",
+          "position": 3,
+          "citation_label": "Strategic Implication",
+          "applies_to": ["reinvestigation", "willful_noncompliance"],
+          "content": "After a failed first round, the consumer has established (1) that they disputed the item and (2) that the bureau's automated procedures did not investigate it meaningfully. A second-round dispute referencing the first round's failure and demanding review beyond the automated system creates the paper trail Cortez v. Trans Union relies on. By round 3, the argument shifts from 'this is wrong' to 'you have repeatedly failed to reasonably investigate a documented dispute' — the §1681n willfulness territory."
+        }
+      ]
+    },
+    {
+      "citation": "Bureau Pattern — Frivolous Dispute Rejections",
+      "title": "Pattern: Bureaus increasingly reject disputes as 'frivolous' or 'suspicious'",
+      "source_type": "bureau_pattern",
+      "jurisdiction": "Industry practice (all three nationwide CRAs)",
+      "doc_date": "2023-06-01",
+      "applies_to": ["reinvestigation"],
+      "summary": "Since ~2022, all three nationwide bureaus have increased their use of §1681i(a)(3)(A) 'frivolous or irrelevant' terminations to reject disputes without investigation. Common triggers: use of professional dispute language, disputes submitted from IP addresses shared with credit-repair companies, and any dispute template.",
+      "source_url": "https://www.consumerfinance.gov/data-research/research-reports/supervisory-highlights-consumer-reporting-special-edition/",
+      "chunks": [
+        {
+          "chunk_type": "pattern",
+          "position": 1,
+          "citation_label": "Observation",
+          "applies_to": ["reinvestigation"],
+          "content": "Bureaus increasingly terminate disputes citing §1681i(a)(3)(A) frivolousness, especially when disputes: (a) use language indistinguishable from credit repair templates, (b) contest multiple items simultaneously in identical language, (c) come from IP addresses or email domains associated with credit repair operations, or (d) restate the same dispute the bureau previously reviewed. Consumers receive a letter within 5 business days claiming the dispute cannot be processed."
+        },
+        {
+          "chunk_type": "pattern",
+          "position": 2,
+          "citation_label": "Strategic Implication",
+          "applies_to": ["reinvestigation"],
+          "content": "To avoid frivolousness dismissal: write in the consumer's own voice with specific factual details (dates, amounts, account references), do not use identical language across items or across bureaus, submit from a consumer's own IP/address, and always attach specific documentary evidence. Frivolousness rejection is itself appealable — a consumer may re-dispute providing additional evidence, and repeated frivolousness rejections in the face of documented evidence support willfulness claims."
+        }
+      ]
+    },
+    {
+      "citation": "Bureau Pattern — Furnisher Verification Rates",
+      "title": "Pattern: Furnishers verify 90%+ of disputes on first submission",
+      "source_type": "bureau_pattern",
+      "jurisdiction": "Industry practice",
+      "doc_date": "2022-11-30",
+      "applies_to": ["furnisher_duty", "reinvestigation"],
+      "summary": "Aggregate industry data shows that furnishers verify the vast majority (~90%+) of disputes on first submission — often within hours through automated systems, without any meaningful investigation. Deletion rates rise substantially in later rounds when consumers escalate with new documentation.",
+      "source_url": "https://www.consumerfinance.gov/data-research/research-reports/supervisory-highlights-consumer-reporting-special-edition/",
+      "chunks": [
+        {
+          "chunk_type": "pattern",
+          "position": 1,
+          "citation_label": "Observation",
+          "applies_to": ["furnisher_duty", "reinvestigation"],
+          "content": "First-round dispute deletion rates hover in the 5-10% range for tradelines and 15-25% for inquiries and public records. Verification rates rise sharply for older, sold-off debts (where the current furnisher has thin documentation but automatically verifies anyway) and drop for medical debt disputes (where recent CFPB attention has made bureaus more responsive). By round 3, cumulative deletion rates approach 40-50% for well-documented disputes."
+        },
+        {
+          "chunk_type": "pattern",
+          "position": 2,
+          "citation_label": "Strategic Implication",
+          "applies_to": ["furnisher_duty", "reinvestigation"],
+          "content": "A first-round verification is not the end of a dispute — it's the beginning of the escalation ladder. Round 2 targets the specific inadequacies of round 1 (e.g., 'furnisher verified without addressing my documentation of X'). Round 3 adds §1681s-2(b) direct-to-furnisher pressure and CFPB complaint filing. Round 4 typically involves attorney involvement or formal §1681n willfulness claims. Case selection: pursue items with high documentation quality; low-documentation disputes should focus on obsolescence or identity theft angles that don't require the consumer to disprove the debt."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "$schema_version": "1.0.0",
+  "$notes": "Landmark FCRA and FDCPA case law. Each document is one case, with chunks for holding and rule-of-law significance. Citations verified. Summaries emphasize what each case does for consumer dispute strategy — the legal principle the Strategy Agent should invoke.",
+  "documents": [
+    {
+      "citation": "Safeco Ins. Co. of Am. v. Burr, 551 U.S. 47 (2007)",
+      "title": "Safeco v. Burr — willfulness includes reckless disregard",
+      "source_type": "case_law",
+      "jurisdiction": "U.S. Supreme Court",
+      "doc_date": "2007-06-04",
+      "applies_to": ["willful_noncompliance"],
+      "summary": "Supreme Court held that 'willful' noncompliance under §1681n includes reckless disregard of statutory duty, not just knowing violations. Foundational case for §1681n damages — expanded plaintiff access to statutory and punitive damages.",
+      "source_url": "https://www.law.cornell.edu/supct/html/06-84.ZS.html",
+      "chunks": [
+        {
+          "chunk_type": "holding",
+          "position": 1,
+          "citation_label": "Holding I",
+          "applies_to": ["willful_noncompliance"],
+          "content": "Willful failure under FCRA §1681n covers a violation committed in reckless disregard of a statutory duty, not merely knowing violations. Where willfulness is a statutory condition of civil liability, it is generally taken to cover not only knowing violations of a standard, but reckless ones as well. This dramatically expands the availability of statutory damages ($100-$1,000 per violation) and punitive damages against CRAs and furnishers."
+        },
+        {
+          "chunk_type": "holding",
+          "position": 2,
+          "citation_label": "Holding II",
+          "applies_to": ["willful_noncompliance"],
+          "content": "A company does not act in reckless disregard of FCRA unless its action is not only a violation under a reasonable reading of the statute, but shows that the company ran a risk of violating the law substantially greater than the risk associated with a reading that was merely careless. In practice: an 'objectively unreasonable' interpretation is required. This is the 'Safeco defense' — a defendant can escape willfulness by pointing to any reasonable interpretation of the statute they followed."
+        }
+      ]
+    },
+    {
+      "citation": "Spokeo, Inc. v. Robins, 578 U.S. 330 (2016)",
+      "title": "Spokeo v. Robins — concrete injury required for standing",
+      "source_type": "case_law",
+      "jurisdiction": "U.S. Supreme Court",
+      "doc_date": "2016-05-16",
+      "applies_to": ["accuracy_procedures", "willful_noncompliance", "negligent_noncompliance"],
+      "summary": "Supreme Court held that a bare FCRA violation without concrete injury does not satisfy Article III standing. Consumers must show concrete harm — abstract statutory violations alone are insufficient. Major hurdle for FCRA class actions but manageable for individual plaintiffs who can identify tangible harm.",
+      "source_url": "https://www.supremecourt.gov/opinions/15pdf/13-1339_f2q3.pdf",
+      "chunks": [
+        {
+          "chunk_type": "holding",
+          "position": 1,
+          "citation_label": "Holding",
+          "applies_to": ["willful_noncompliance", "negligent_noncompliance"],
+          "content": "To establish injury in fact under Article III, a plaintiff must allege a harm that is both 'concrete' and 'particularized.' A bare procedural violation of FCRA, without more, does not satisfy the concreteness requirement. Concrete does not necessarily mean tangible — some intangible harms (like risk of real harm) can qualify — but Congress cannot simply enact statutory rights whose bare violation confers standing."
+        },
+        {
+          "chunk_type": "holding",
+          "position": 2,
+          "citation_label": "Practical Effect",
+          "applies_to": ["accuracy_procedures"],
+          "content": "Practical implication for dispute strategy: consumers must be able to articulate concrete harm from inaccurate reporting — denied credit, higher interest rates, adverse employment decisions, emotional distress with medical documentation, or clear risk of imminent harm. Simply 'the report is wrong' is insufficient for federal court. Bureau complaints (via CFPB) do not face this standing bar and remain viable regardless."
+        }
+      ]
+    },
+    {
+      "citation": "TransUnion LLC v. Ramirez, 594 U.S. ___ (2021)",
+      "title": "TransUnion v. Ramirez — Spokeo applied to FCRA class actions",
+      "source_type": "case_law",
+      "jurisdiction": "U.S. Supreme Court",
+      "doc_date": "2021-06-25",
+      "applies_to": ["accuracy_procedures", "willful_noncompliance"],
+      "summary": "Supreme Court applied Spokeo to hold that FCRA class members whose inaccurate credit reports were never disseminated to third parties lack standing — the risk of future dissemination alone is not concrete injury. Significantly narrows FCRA class actions.",
+      "source_url": "https://www.supremecourt.gov/opinions/20pdf/20-297_4g25.pdf",
+      "chunks": [
+        {
+          "chunk_type": "holding",
+          "position": 1,
+          "citation_label": "Holding",
+          "applies_to": ["accuracy_procedures", "willful_noncompliance"],
+          "content": "In a §1681e(b) accuracy class action, only class members whose false OFAC-terrorist-designation alerts were actually disseminated to third parties had standing. Class members whose file merely contained the false designation but was never sent out lacked concrete injury. Ramirez narrows FCRA class actions but does not affect individual claims where dissemination or concrete effect is documented."
+        }
+      ]
+    },
+    {
+      "citation": "Cortez v. Trans Union, LLC, 617 F.3d 688 (3d Cir. 2010)",
+      "title": "Cortez v. Trans Union — reasonable reinvestigation standard",
+      "source_type": "case_law",
+      "jurisdiction": "U.S. Court of Appeals for the Third Circuit",
+      "doc_date": "2010-08-09",
+      "applies_to": ["reinvestigation", "accuracy_procedures", "willful_noncompliance"],
+      "summary": "Landmark Third Circuit case establishing that a 'reasonable reinvestigation' under §1681i requires the CRA to look beyond the furnisher's response when circumstances warrant. Consumer won $850K including punitive damages after TransUnion repeatedly failed to fix an OFAC terrorist-list mismatch.",
+      "source_url": "https://law.justia.com/cases/federal/appellate-courts/ca3/08-2465/08-2465-2010-08-06.html",
+      "chunks": [
+        {
+          "chunk_type": "holding",
+          "position": 1,
+          "citation_label": "Holding",
+          "applies_to": ["reinvestigation"],
+          "content": "A 'reasonable reinvestigation' under §1681i(a)(1) requires more than parroting back the furnisher's verification. When the consumer provides specific documentation contradicting the furnisher's data, the CRA has a duty to actually evaluate the dispute — not simply defer to the furnisher. TransUnion's practice of automatically accepting furnisher confirmations without independent evaluation was unreasonable."
+        },
+        {
+          "chunk_type": "holding",
+          "position": 2,
+          "citation_label": "Rule",
+          "applies_to": ["reinvestigation", "willful_noncompliance"],
+          "content": "Repeated failure to correct an error after specific consumer notice can support willfulness — an inference that the CRA's inaction was reckless disregard. This is a foundational case for the 'multi-round dispute strategy' — establishing the paper trail of specific notice that later supports §1681n damages if the CRA continues to verify without genuine investigation."
+        }
+      ]
+    },
+    {
+      "citation": "Bibbs v. Trans Union LLC, 43 F.4th 331 (3d Cir. 2022)",
+      "title": "Bibbs v. Trans Union — 'accurately reflecting' is a defense to §1681e",
+      "source_type": "case_law",
+      "jurisdiction": "U.S. Court of Appeals for the Third Circuit",
+      "doc_date": "2022-08-08",
+      "applies_to": ["accuracy_procedures", "reinvestigation"],
+      "summary": "Third Circuit narrowed §1681e(b) accuracy claims: if the reported information is technically accurate (e.g., 'account included in bankruptcy' with a balance is accurate as of the pre-bankruptcy date), the consumer cannot claim inaccuracy just because it is potentially misleading. Consumers must show information is materially misleading, not just incomplete.",
+      "source_url": "https://law.justia.com/cases/federal/appellate-courts/ca3/21-2359/21-2359-2022-08-05.html",
+      "chunks": [
+        {
+          "chunk_type": "holding",
+          "position": 1,
+          "citation_label": "Holding",
+          "applies_to": ["accuracy_procedures"],
+          "content": "Under §1681e(b), 'maximum possible accuracy' means the report must not contain patently incorrect or materially misleading information. Where the information is technically accurate — even if incomplete or dated — the CRA has not violated §1681e(b). A CRA can defend by showing the reported data was accurate as reported, even if it omits helpful context. Consumers must frame disputes around factual inaccuracy, not incompleteness."
+        }
+      ]
+    },
+    {
+      "citation": "Boggio v. USAA Federal Sav. Bank, 696 F.3d 611 (6th Cir. 2012)",
+      "title": "Boggio v. USAA — furnisher liability under §1681s-2(b)",
+      "source_type": "case_law",
+      "jurisdiction": "U.S. Court of Appeals for the Sixth Circuit",
+      "doc_date": "2012-10-04",
+      "applies_to": ["furnisher_duty", "reinvestigation"],
+      "summary": "Sixth Circuit clarified furnisher investigation duties under §1681s-2(b): after receiving a CRA dispute notice, the furnisher must conduct a good-faith investigation reasonably calculated to determine whether the disputed information is accurate. Mere confirmation of internal records is insufficient when the dispute provides specific contradicting facts.",
+      "source_url": "https://law.justia.com/cases/federal/appellate-courts/ca6/11-3969/11-3969-2012-10-01.html",
+      "chunks": [
+        {
+          "chunk_type": "holding",
+          "position": 1,
+          "citation_label": "Holding",
+          "applies_to": ["furnisher_duty", "reinvestigation"],
+          "content": "A furnisher's §1681s-2(b) investigation must be reasonable under the circumstances. When a consumer's dispute is specific and provides contradicting information (documentation, dates, amounts), the furnisher cannot simply confirm its internal records — it must actually investigate. Failure to do so creates individual liability under the private right of action in §1681s-2(b), independent of any CRA liability."
+        }
+      ]
+    },
+    {
+      "citation": "Saunders v. Branch Banking & Trust Co., 526 F.3d 142 (4th Cir. 2008)",
+      "title": "Saunders v. BB&T — furnisher §1681s-2(b) liability confirmed",
+      "source_type": "case_law",
+      "jurisdiction": "U.S. Court of Appeals for the Fourth Circuit",
+      "doc_date": "2008-05-14",
+      "applies_to": ["furnisher_duty", "reinvestigation"],
+      "summary": "Fourth Circuit confirmed private right of action against furnishers under §1681s-2(b) and held that a furnisher's inaccurate reporting after receiving dispute notice supports willful noncompliance under §1681n. Consumer awarded $80K in punitive damages against BB&T.",
+      "source_url": "https://law.justia.com/cases/federal/appellate-courts/ca4/07-1428/071428.p-2011-03-24.html",
+      "chunks": [
+        {
+          "chunk_type": "holding",
+          "position": 1,
+          "citation_label": "Holding",
+          "applies_to": ["furnisher_duty"],
+          "content": "Consumers have a private right of action to enforce §1681s-2(b) against furnishers of information. A furnisher that continues to report information after being notified of a dispute and failing to conduct a proper investigation can be liable for willful noncompliance under §1681n. Establishes the key doctrinal foundation for suing furnishers directly, not just CRAs."
+        }
+      ]
+    },
+    {
+      "citation": "Guimond v. Trans Union Credit Info. Co., 45 F.3d 1329 (9th Cir. 1995)",
+      "title": "Guimond v. Trans Union — accuracy is objective",
+      "source_type": "case_law",
+      "jurisdiction": "U.S. Court of Appeals for the Ninth Circuit",
+      "doc_date": "1995-02-01",
+      "applies_to": ["accuracy_procedures", "reinvestigation"],
+      "summary": "Ninth Circuit held that §1681e(b) claims can proceed even without showing that the CRA acted intentionally — the standard is whether the CRA followed reasonable procedures to assure maximum possible accuracy. Foundational case establishing the objective 'reasonable procedures' test.",
+      "source_url": "https://law.justia.com/cases/federal/appellate-courts/F3/45/1329/609859/",
+      "chunks": [
+        {
+          "chunk_type": "holding",
+          "position": 1,
+          "citation_label": "Holding",
+          "applies_to": ["accuracy_procedures"],
+          "content": "Section 1681e(b) applies whenever a consumer report contains inaccurate information — the plaintiff need not show the CRA acted with knowledge of the inaccuracy. The standard is objective: did the CRA follow reasonable procedures to assure maximum possible accuracy? Reasonableness is a jury question weighed against the volume of reports, the potential harm, and the cost of preventive measures."
+        }
+      ]
+    },
+    {
+      "citation": "Dennis v. BEH-1, LLC, 520 F.3d 1066 (9th Cir. 2008)",
+      "title": "Dennis v. BEH-1 — statute of limitations under §1681p",
+      "source_type": "case_law",
+      "jurisdiction": "U.S. Court of Appeals for the Ninth Circuit",
+      "doc_date": "2008-03-18",
+      "applies_to": ["reinvestigation"],
+      "summary": "Ninth Circuit case addressing when the FCRA statute of limitations begins to run. §1681p provides a 2-year period from the date the consumer discovers the violation, or 5 years from the date of the violation, whichever is earlier. Important for staleness analysis on old bureau conduct.",
+      "source_url": "https://law.justia.com/cases/federal/appellate-courts/ca9/06-15625/06-15625-2011-03-24.html",
+      "chunks": [
+        {
+          "chunk_type": "holding",
+          "position": 1,
+          "citation_label": "Rule",
+          "applies_to": ["reinvestigation"],
+          "content": "The FCRA statute of limitations under §1681p is 2 years from consumer discovery of the violation, or 5 years from the date of the violation, whichever is earlier. Each new inaccurate report can constitute a fresh violation, so ongoing conduct resets the clock for that specific report. Multi-year disputes should target each recent report event, not just the original erroneous entry."
+        }
+      ]
+    },
+    {
+      "citation": "Sarver v. Experian Info. Solutions, 390 F.3d 969 (7th Cir. 2004)",
+      "title": "Sarver v. Experian — reasonableness weighs cost against benefit",
+      "source_type": "case_law",
+      "jurisdiction": "U.S. Court of Appeals for the Seventh Circuit",
+      "doc_date": "2004-11-30",
+      "applies_to": ["accuracy_procedures"],
+      "summary": "Seventh Circuit held that whether CRA procedures are 'reasonable' under §1681e(b) is judged by balancing the potential harm to consumers against the cost to the CRA of implementing better procedures. Establishes the classic cost-benefit reasonableness framework.",
+      "source_url": "https://law.justia.com/cases/federal/appellate-courts/F3/390/969/540620/",
+      "chunks": [
+        {
+          "chunk_type": "holding",
+          "position": 1,
+          "citation_label": "Rule",
+          "applies_to": ["accuracy_procedures"],
+          "content": "Reasonableness under §1681e(b) is determined by balancing (1) the potential harm to consumers from inaccurate reporting against (2) the cost to the CRA of implementing more accurate procedures. When potential harm is high (e.g., systematic mixed files or terrorist watchlist matches) and the cost of better procedures is low, failure to implement them is unreasonable."
+        }
+      ]
+    },
+    {
+      "citation": "Henson v. CSC Credit Servs., 29 F.3d 280 (7th Cir. 1994)",
+      "title": "Henson v. CSC — furnisher accuracy pre-2003 amendments",
+      "source_type": "case_law",
+      "jurisdiction": "U.S. Court of Appeals for the Seventh Circuit",
+      "doc_date": "1994-07-14",
+      "applies_to": ["accuracy_procedures", "furnisher_duty"],
+      "summary": "Historical Seventh Circuit case establishing early framework for furnisher liability. Largely superseded by 1996 and 2003 FCRA amendments but still cited for the principle that CRA reasonable procedures include verification steps.",
+      "source_url": "https://law.justia.com/cases/federal/appellate-courts/F3/29/280/524345/",
+      "chunks": [
+        {
+          "chunk_type": "holding",
+          "position": 1,
+          "citation_label": "Rule",
+          "applies_to": ["accuracy_procedures"],
+          "content": "A CRA has no obligation under §1681e(b) to independently verify each item of information from public records where the source is generally reliable — but this deference is defeated when the consumer disputes the item and the CRA is on notice of potential inaccuracy. Establishes the 'notice defeats deference' principle that supports second-round and third-round dispute strategies."
+        }
+      ]
+    },
+    {
+      "citation": "Jenkins v. Heintz, 25 F.3d 536 (7th Cir. 1994)",
+      "title": "Jenkins v. Heintz — FDCPA applies to attorneys collecting debts",
+      "source_type": "case_law",
+      "jurisdiction": "U.S. Court of Appeals for the Seventh Circuit",
+      "doc_date": "1994-06-06",
+      "applies_to": ["false_representation", "collection"],
+      "summary": "Seventh Circuit held that attorneys who regularly collect consumer debts through litigation are 'debt collectors' under the FDCPA. Affirmed by the Supreme Court in Heintz v. Jenkins, 514 U.S. 291 (1995). Establishes FDCPA reach over collection attorneys.",
+      "source_url": "https://law.justia.com/cases/federal/appellate-courts/F3/25/536/491859/",
+      "chunks": [
+        {
+          "chunk_type": "holding",
+          "position": 1,
+          "citation_label": "Rule",
+          "applies_to": ["false_representation", "collection"],
+          "content": "Attorneys who regularly engage in consumer-debt collection activity, even when that activity consists solely of litigation, are 'debt collectors' subject to the FDCPA. A demand letter from a collection attorney claiming amounts not owed, or reporting a debt to CRAs without proper validation, is subject to §1692e and §1692g just like any other collector."
+        }
+      ]
+    },
+    {
+      "citation": "Jerman v. Carlisle, McNellie, Rini, Kramer & Ulrich, LPA, 559 U.S. 573 (2010)",
+      "title": "Jerman v. Carlisle — 'bona fide error' does not cover legal mistakes",
+      "source_type": "case_law",
+      "jurisdiction": "U.S. Supreme Court",
+      "doc_date": "2010-04-21",
+      "applies_to": ["false_representation", "collection"],
+      "summary": "Supreme Court held that the FDCPA's bona fide error defense (§1692k(c)) does not shield debt collectors from mistakes of law — only clerical or factual errors. A collector cannot escape liability by claiming they misinterpreted the FDCPA.",
+      "source_url": "https://www.supremecourt.gov/opinions/09pdf/08-1200.pdf",
+      "chunks": [
+        {
+          "chunk_type": "holding",
+          "position": 1,
+          "citation_label": "Holding",
+          "applies_to": ["false_representation", "collection"],
+          "content": "The FDCPA §1692k(c) 'bona fide error' defense does not extend to mistakes about the requirements of the FDCPA itself. Only clerical or factual errors qualify. Practical effect: a collector who violates §1692e or §1692g cannot defend by claiming they thought their conduct was permitted. Strengthens FDCPA plaintiffs' position significantly."
+        }
+      ]
+    },
+    {
+      "citation": "Marino v. Ocwen Loan Servicing LLC, 978 F.3d 669 (9th Cir. 2020)",
+      "title": "Marino v. Ocwen — mortgage servicer FCRA duties",
+      "source_type": "case_law",
+      "jurisdiction": "U.S. Court of Appeals for the Ninth Circuit",
+      "doc_date": "2020-10-22",
+      "applies_to": ["furnisher_duty", "accuracy_procedures"],
+      "summary": "Ninth Circuit held that mortgage servicers are furnishers under FCRA and must conduct reasonable investigations of disputes about mortgage account status, particularly for accounts in loan modification or foreclosure. Establishes servicer-specific liability framework.",
+      "source_url": "https://law.justia.com/cases/federal/appellate-courts/ca9/19-55295/19-55295-2020-10-22.html",
+      "chunks": [
+        {
+          "chunk_type": "holding",
+          "position": 1,
+          "citation_label": "Holding",
+          "applies_to": ["furnisher_duty"],
+          "content": "Mortgage servicers are furnishers under FCRA and owe §1681s-2(b) duties. A servicer that reports a loan as delinquent while the borrower is in an approved modification, or that fails to investigate disputes tied to modifications and forbearance, faces direct FCRA liability. Especially relevant for post-pandemic accounts affected by forbearance programs."
+        }
+      ]
+    },
+    {
+      "citation": "Miller v. Wolpoff & Abramson, LLP, 321 F.3d 292 (2d Cir. 2003)",
+      "title": "Miller v. Wolpoff — validation duties under §1692g",
+      "source_type": "case_law",
+      "jurisdiction": "U.S. Court of Appeals for the Second Circuit",
+      "doc_date": "2003-02-27",
+      "applies_to": ["debt_validation", "collection"],
+      "summary": "Second Circuit held that verification of debt under FDCPA §1692g requires some evidence of the actual debt — not merely a restatement of the collector's records. Establishes the 'meaningful verification' standard used in many later cases.",
+      "source_url": "https://law.justia.com/cases/federal/appellate-courts/F3/321/292/564907/",
+      "chunks": [
+        {
+          "chunk_type": "holding",
+          "position": 1,
+          "citation_label": "Rule",
+          "applies_to": ["debt_validation"],
+          "content": "Debt verification under §1692g(b) requires more than a bare restatement of what the collector has already claimed. The collector must provide sufficient information to allow the consumer to identify the debt and verify its accuracy — such as the original creditor, account number, and amount claimed. A merely reiterated demand does not satisfy verification."
+        }
+      ]
+    }
+  ]
+}

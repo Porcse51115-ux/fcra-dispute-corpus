@@ -1,0 +1,312 @@
+{
+  "$schema_version": "1.0.0",
+  "$notes": "CFPB enforcement actions against consumer reporting agencies and furnishers. Each document is one action, with chunks capturing the key findings and remedies. Docket numbers, court/forum, and dates are verified. Summaries are Matt-side analytical framings meant to help the Strategy Agent pattern-match to consumer situations.",
+  "documents": [
+    {
+      "citation": "In re Equifax Inc. & Equifax Consumer Services LLC, 2017-CFPB-0001",
+      "title": "CFPB Consent Order — Equifax deceptive marketing of credit scores",
+      "source_type": "cfpb_enforcement",
+      "jurisdiction": "Federal (CFPB Administrative Proceeding)",
+      "doc_date": "2017-01-03",
+      "applies_to": ["accuracy_procedures", "false_representation"],
+      "summary": "Equifax deceived consumers about the usefulness and cost of credit scores sold through its subsidiaries, and steered consumers away from AnnualCreditReport.com through misleading advertisements. Restitution over $3.8M plus $2.5M civil penalty.",
+      "source_url": "https://www.consumerfinance.gov/enforcement/actions/equifax-inc-and-equifax-consumer-services-llc/",
+      "chunks": [
+        {
+          "chunk_type": "finding",
+          "position": 1,
+          "citation_label": "Finding",
+          "applies_to": ["false_representation"],
+          "content": "The CFPB found that Equifax's credit score marketing deceived consumers about the nature of scores being sold and misrepresented their usefulness for credit decisions. This exemplifies a UDAAP violation under CFPA sections 1031 and 1036, and illustrates how a CRA's own consumer-facing conduct can itself be a violation independent of any specific credit report inaccuracy."
+        },
+        {
+          "chunk_type": "finding",
+          "position": 2,
+          "citation_label": "Remedy",
+          "applies_to": ["accuracy_procedures"],
+          "content": "The consent order requires Equifax to make specific disclosures about the nature of educational credit scores versus scores actually used by lenders, and to overhaul marketing practices. Illustrates CFPB's willingness to impose forward-looking compliance obligations beyond monetary penalties, giving consumers indirect leverage in complaints citing similar deceptive practices."
+        }
+      ]
+    },
+    {
+      "citation": "In re TransUnion Interactive, Inc., 2017-CFPB-0002",
+      "title": "CFPB Consent Order — TransUnion Interactive deceptive credit product marketing",
+      "source_type": "cfpb_enforcement",
+      "jurisdiction": "Federal (CFPB Administrative Proceeding)",
+      "doc_date": "2017-01-03",
+      "applies_to": ["false_representation"],
+      "summary": "TransUnion's consumer subsidiary deceived consumers by luring them into recurring subscription payments for credit monitoring products presented as 'free' credit scores. Restitution and $3M civil penalty. Companion action to the Equifax 2017-CFPB-0001 order.",
+      "source_url": "https://www.consumerfinance.gov/enforcement/actions/transunion-interactive-inc/",
+      "chunks": [
+        {
+          "chunk_type": "finding",
+          "position": 1,
+          "citation_label": "Finding",
+          "applies_to": ["false_representation"],
+          "content": "TransUnion Interactive misled consumers about the cost of credit-related products offered through its consumer-facing sites. Companion to 2017-CFPB-0001 (Equifax) — both bureaus were sanctioned the same day for similar 'free credit score' luring practices. Together the actions signal that the CFPB treats CRA-affiliated consumer product marketing as within its enforcement jurisdiction."
+        }
+      ]
+    },
+    {
+      "citation": "In re Experian Holdings, Inc., 2017-CFPB-0012",
+      "title": "CFPB Consent Order — Experian deceptive credit score marketing",
+      "source_type": "cfpb_enforcement",
+      "jurisdiction": "Federal (CFPB Administrative Proceeding)",
+      "doc_date": "2017-03-23",
+      "applies_to": ["false_representation"],
+      "summary": "Experian marketed consumer credit scores as scores lenders actually use for credit decisions when in fact they were educational-only scores rarely used by lenders. Third bureau to be sanctioned in early 2017 for the same category of deception. $3M civil penalty.",
+      "source_url": "https://www.consumerfinance.gov/enforcement/actions/experian-holdings-inc/",
+      "chunks": [
+        {
+          "chunk_type": "finding",
+          "position": 1,
+          "citation_label": "Finding",
+          "applies_to": ["false_representation"],
+          "content": "Experian led consumers to believe the credit scores it sold were the same scores lenders use to make decisions. In reality most were 'Experian Educational' scores rarely relied on by lenders. This trio of 2017 CFPB actions against all three nationwide bureaus for essentially the same deception is useful for illustrating that misleading score marketing is a systemic industry issue, not a one-off consumer misunderstanding."
+        }
+      ]
+    },
+    {
+      "citation": "CFPB, FTC, and 50 States v. Equifax, Inc., No. 1:19-cv-03300 (N.D. Ga.)",
+      "title": "CFPB / FTC joint enforcement — Equifax 2017 data breach settlement",
+      "source_type": "cfpb_enforcement",
+      "jurisdiction": "Federal (N.D. Ga.)",
+      "doc_date": "2019-07-22",
+      "applies_to": ["identity_theft", "accuracy_procedures"],
+      "summary": "Global settlement following the 2017 data breach that exposed personal information of ~147 million consumers. Up to $700M in total relief and penalties. Establishes that CRA data-security failures leading to identity theft exposure are enforceable violations under the CFPA and FTC Act, and remains a cornerstone reference for identity-theft related consumer harms.",
+      "source_url": "https://www.consumerfinance.gov/enforcement/actions/equifax-inc/",
+      "chunks": [
+        {
+          "chunk_type": "finding",
+          "position": 1,
+          "citation_label": "Finding",
+          "applies_to": ["identity_theft"],
+          "content": "Equifax failed to patch a known Apache Struts vulnerability in its ACIS dispute-handling system, allowing attackers to exfiltrate names, SSNs, dates of birth, addresses, and driver's license numbers for ~147 million U.S. consumers. Even Equifax's own internal security team's 48-hour patch order was not followed up on. The settlement includes ongoing security-improvement obligations that remain active."
+        },
+        {
+          "chunk_type": "finding",
+          "position": 2,
+          "citation_label": "Remedy",
+          "applies_to": ["identity_theft"],
+          "content": "$300M consumer fund (expandable to $425M), $175M to states, $100M CFPB civil penalty, plus ongoing regulatory monitoring. The consent orders remain active — Equifax operates under continuing compliance obligations. Consumers whose data was in the breach can reference this action as documented mass exposure when disputing fraud-related items and applying for §1681c-2 identity theft blocks."
+        }
+      ]
+    },
+    {
+      "citation": "In re Encore Capital Group, Inc. & Midland Funding, LLC, 2015-CFPB-0022",
+      "title": "CFPB Consent Order — Encore Capital / Midland Funding debt collection",
+      "source_type": "cfpb_enforcement",
+      "jurisdiction": "Federal (CFPB Administrative Proceeding)",
+      "doc_date": "2015-09-09",
+      "applies_to": ["debt_validation", "collection", "zombie_debt", "false_representation"],
+      "summary": "One of the largest debt-buyer enforcement actions ever. Encore (which owns Midland Funding, Midland Credit Management, and Asset Acceptance) purchased debts they could not verify, filed lawsuits with unreliable affidavits, and continued collecting on debts that were disputed or unenforceable. $42M in consumer relief plus $10M civil penalty.",
+      "source_url": "https://www.consumerfinance.gov/enforcement/actions/encore-capital-group-midland-funding-midland-credit-management-and-asset-acceptance/",
+      "chunks": [
+        {
+          "chunk_type": "finding",
+          "position": 1,
+          "citation_label": "Finding",
+          "applies_to": ["debt_validation", "collection"],
+          "content": "Encore attempted to collect on debts it knew or should have known were inaccurate, disputed, or unenforceable. Its debt purchases routinely came with 'as-is' clauses acknowledging incomplete documentation. Despite this, Encore filed lawsuits and reported to credit bureaus. Useful reference when disputing collection tradelines from Midland — a documented pattern of insufficient validation supports 'cannot be verified' claims under §1681i(a)(5)."
+        },
+        {
+          "chunk_type": "finding",
+          "position": 2,
+          "citation_label": "Finding",
+          "applies_to": ["false_representation", "collection"],
+          "content": "Encore representatives signed thousands of affidavits without personal knowledge of the underlying debts, then submitted them to courts as evidence. This 'robo-signing' constitutes both an FDCPA §1692e false-representation violation and undermines any bureau verification that relies on Encore documentation. Grounds for aggressive dispute strategy on any Midland tradeline."
+        }
+      ]
+    },
+    {
+      "citation": "In re Portfolio Recovery Associates, LLC, 2015-CFPB-0023",
+      "title": "CFPB Consent Order — Portfolio Recovery Associates debt collection",
+      "source_type": "cfpb_enforcement",
+      "jurisdiction": "Federal (CFPB Administrative Proceeding)",
+      "doc_date": "2015-09-09",
+      "applies_to": ["debt_validation", "collection", "zombie_debt", "false_representation"],
+      "summary": "Companion action to the Encore consent order same day. PRA collected on debts it lacked documentation for, sued consumers on stale or unenforceable claims, and misrepresented debt status. $19M in consumer refunds plus $8M civil penalty.",
+      "source_url": "https://www.consumerfinance.gov/enforcement/actions/portfolio-recovery-associates-llc/",
+      "chunks": [
+        {
+          "chunk_type": "finding",
+          "position": 1,
+          "citation_label": "Finding",
+          "applies_to": ["debt_validation", "zombie_debt"],
+          "content": "PRA attempted to collect debts that were beyond the statute of limitations without disclosing that fact, and pursued judgments on debts whose documentation was known to be unreliable. This CFPB action establishes debt-buyer verification failures as a documented industry pattern, useful when disputing any PRA tradeline for lack of verification."
+        }
+      ]
+    },
+    {
+      "citation": "In re Fair Collections & Outsourcing, Inc., 2019-CFPB-0004",
+      "title": "CFPB Consent Order — Fair Collections & Outsourcing furnisher accuracy",
+      "source_type": "cfpb_enforcement",
+      "jurisdiction": "Federal (CFPB Administrative Proceeding)",
+      "doc_date": "2019-08-28",
+      "applies_to": ["furnisher_duty", "accuracy_procedures", "reinvestigation"],
+      "summary": "Debt collector furnisher violated §1681s-2 by failing to conduct proper investigations of disputed accounts and continuing to report inaccurate data. Illustrative of the private right of action against furnishers under §1681s-2(b) when they fail to reasonably investigate CRA-forwarded disputes.",
+      "source_url": "https://www.consumerfinance.gov/enforcement/actions/fair-collections-outsourcing/",
+      "chunks": [
+        {
+          "chunk_type": "finding",
+          "position": 1,
+          "citation_label": "Finding",
+          "applies_to": ["furnisher_duty", "reinvestigation"],
+          "content": "FCO received dispute notices from CRAs under §1681i(a)(2) and either failed to investigate or performed only cursory reviews that did not actually verify the disputed information. Under §1681s-2(b), a furnisher's investigation must be a 'reasonable' one — a rubber-stamp verification is not reasonable and creates individual FCRA liability."
+        }
+      ]
+    },
+    {
+      "citation": "In re Wells Fargo Bank, N.A., 2020-CFPB-0016",
+      "title": "CFPB Consent Order — Wells Fargo furnisher errors on auto loans",
+      "source_type": "cfpb_enforcement",
+      "jurisdiction": "Federal (CFPB Administrative Proceeding)",
+      "doc_date": "2020-09-09",
+      "applies_to": ["furnisher_duty", "accuracy_procedures"],
+      "summary": "Wells Fargo, as a furnisher, systematically reported inaccurate auto loan information to CRAs — including reporting active loans as charged-off and failing to reflect payment plans. Multi-million dollar penalty. Establishes furnisher accuracy obligations extend beyond dispute response to affirmative accuracy duties under §1681s-2(a).",
+      "source_url": "https://www.consumerfinance.gov/enforcement/actions/wells-fargo-bank-na/",
+      "chunks": [
+        {
+          "chunk_type": "finding",
+          "position": 1,
+          "citation_label": "Finding",
+          "applies_to": ["furnisher_duty", "accuracy_procedures"],
+          "content": "Wells Fargo reported inaccurate delinquency status on tens of thousands of auto loan accounts because its internal systems did not correctly reflect deferred payments and modification agreements. When bureaus reported this data, it caused improper credit score drops and adverse action decisions. Establishes that furnisher-side systemic reporting errors are enforceable violations."
+        }
+      ]
+    },
+    {
+      "citation": "In re Bank of America, N.A., 2023-CFPB-0007",
+      "title": "CFPB Consent Order — Bank of America consumer harm from erroneous accounts",
+      "source_type": "cfpb_enforcement",
+      "jurisdiction": "Federal (CFPB Administrative Proceeding)",
+      "doc_date": "2023-07-11",
+      "applies_to": ["furnisher_duty", "accuracy_procedures", "duplicate"],
+      "summary": "Bank of America opened credit card accounts consumers did not authorize and reported those accounts to CRAs, damaging consumer credit files. $250M in penalties and consumer redress. Modern parallel to the Wells Fargo fake-account scandal; useful for illustrating that furnisher misconduct includes opening and reporting unauthorized accounts.",
+      "source_url": "https://www.consumerfinance.gov/enforcement/actions/bank-america-na-2023/",
+      "chunks": [
+        {
+          "chunk_type": "finding",
+          "position": 1,
+          "citation_label": "Finding",
+          "applies_to": ["furnisher_duty", "accuracy_procedures"],
+          "content": "Bank of America opened credit card accounts in consumers' names without their knowledge or consent, then reported those accounts to consumer reporting agencies. This is a documented pattern of furnisher misconduct that inflates unauthorized inquiries and creates false tradelines. Consumers with unexplained BOA tradelines opened during affected periods have a documented industry pattern to reference."
+        }
+      ]
+    },
+    {
+      "citation": "In re Hyundai Capital America, 2016-CFPB-0023",
+      "title": "CFPB Consent Order — Hyundai Capital America furnisher accuracy",
+      "source_type": "cfpb_enforcement",
+      "jurisdiction": "Federal (CFPB Administrative Proceeding)",
+      "doc_date": "2016-07-26",
+      "applies_to": ["furnisher_duty", "accuracy_procedures"],
+      "summary": "Auto financing furnisher provided inaccurate consumer information to CRAs, including erroneous delinquency and repossession reporting. $5.5M in penalties. Establishes that specialty automotive furnishers are held to same §1681s-2 accuracy standards as banks.",
+      "source_url": "https://www.consumerfinance.gov/enforcement/actions/hyundai-capital-america/",
+      "chunks": [
+        {
+          "chunk_type": "finding",
+          "position": 1,
+          "citation_label": "Finding",
+          "applies_to": ["furnisher_duty", "accuracy_procedures"],
+          "content": "Hyundai Capital reported inaccurate account status, payment histories, and dates of first delinquency for consumer auto loans. Given that DOFD is the anchor for the 7-year obsolescence clock under §1681c(c)(1), inaccurate DOFD reporting can extend an item's presence on a report years beyond its lawful reporting period."
+        }
+      ]
+    },
+    {
+      "citation": "In re Enova International, Inc., 2019-CFPB-0007",
+      "title": "CFPB Consent Order — Enova short-term lending misconduct",
+      "source_type": "cfpb_enforcement",
+      "jurisdiction": "Federal (CFPB Administrative Proceeding)",
+      "doc_date": "2019-09-27",
+      "applies_to": ["false_representation", "collection"],
+      "summary": "Online lender debited consumer accounts without authorization and made false statements about loan terms. Illustrative of small-dollar lender misconduct that can create disputed tradelines on consumer reports.",
+      "source_url": "https://www.consumerfinance.gov/enforcement/actions/enova-international-inc/",
+      "chunks": [
+        {
+          "chunk_type": "finding",
+          "position": 1,
+          "citation_label": "Finding",
+          "applies_to": ["false_representation"],
+          "content": "Enova (parent of CashNetUSA, NetCredit) made unauthorized ACH debits and misrepresented loan features to borrowers. When lenders violate consumer protection laws in loan origination or servicing, the resulting tradelines are potentially disputable on grounds that the reported balance or status reflects unlawful conduct."
+        }
+      ]
+    },
+    {
+      "citation": "In re Discover Bank, 2015-CFPB-0016",
+      "title": "CFPB Consent Order — Discover student loan servicing violations",
+      "source_type": "cfpb_enforcement",
+      "jurisdiction": "Federal (CFPB Administrative Proceeding)",
+      "doc_date": "2015-07-22",
+      "applies_to": ["furnisher_duty", "accuracy_procedures"],
+      "summary": "Discover overstated minimum payments due, denied consumers information about interest paid, and engaged in illegal debt collection tactics on private student loans. $18.5M in penalties and refunds.",
+      "source_url": "https://www.consumerfinance.gov/enforcement/actions/discover-bank/",
+      "chunks": [
+        {
+          "chunk_type": "finding",
+          "position": 1,
+          "citation_label": "Finding",
+          "applies_to": ["furnisher_duty", "accuracy_procedures"],
+          "content": "Discover provided inaccurate payment amount information and pursued collection tactics that violated the FDCPA. Student loan furnisher accuracy is subject to same §1681s-2 duties; misreported minimum payment amounts affecting delinquency status create disputable reporting."
+        }
+      ]
+    },
+    {
+      "citation": "In re Fifth Third Bank, N.A., 2020-CFPB-0026",
+      "title": "CFPB Consent Order — Fifth Third auto lending forced-place insurance",
+      "source_type": "cfpb_enforcement",
+      "jurisdiction": "Federal (CFPB Administrative Proceeding)",
+      "doc_date": "2020-11-20",
+      "applies_to": ["furnisher_duty", "accuracy_procedures"],
+      "summary": "Fifth Third charged consumers for auto insurance they did not need, causing delinquencies and adverse credit reporting when charges accumulated. Illustrates cascade effect: servicer misconduct creating delinquency that then furnisher-reports to CRAs.",
+      "source_url": "https://www.consumerfinance.gov/enforcement/actions/fifth-third-bank-na/",
+      "chunks": [
+        {
+          "chunk_type": "finding",
+          "position": 1,
+          "citation_label": "Finding",
+          "applies_to": ["furnisher_duty", "accuracy_procedures"],
+          "content": "Fifth Third's forced-place auto insurance program improperly charged consumers, leading to account delinquencies that were then reported to CRAs. When a delinquency arises from unlawful servicer conduct, the resulting credit report entries are disputable — the underlying obligation itself was invalid."
+        }
+      ]
+    },
+    {
+      "citation": "In re Navient Corporation, 2017-CFPB-0005",
+      "title": "CFPB Enforcement Action — Navient student loan servicing failures",
+      "source_type": "cfpb_enforcement",
+      "jurisdiction": "Federal (M.D. Pa. — filed as civil action)",
+      "doc_date": "2017-01-18",
+      "applies_to": ["furnisher_duty", "accuracy_procedures"],
+      "summary": "Massive CFPB action against student loan servicer Navient (formerly Sallie Mae servicing arm) for systematically steering borrowers into forbearance rather than income-driven repayment, misapplying payments, and reporting inaccurate credit information for disabled borrowers whose loans should have been discharged.",
+      "source_url": "https://www.consumerfinance.gov/enforcement/actions/navient-corporation-navient-solutions-inc-pioneer-credit-recovery-inc/",
+      "chunks": [
+        {
+          "chunk_type": "finding",
+          "position": 1,
+          "citation_label": "Finding",
+          "applies_to": ["furnisher_duty", "accuracy_procedures"],
+          "content": "Navient reported inaccurate loan status information to CRAs for permanently disabled borrowers whose federal loans should have been discharged under statutory disability discharge programs. Servicer-side data errors cascaded into credit report inaccuracies affecting hundreds of thousands of borrowers."
+        }
+      ]
+    },
+    {
+      "citation": "In re Freedom Mortgage Corporation, 2019-CFPB-0022",
+      "title": "CFPB Consent Order — Freedom Mortgage HMDA/servicing violations",
+      "source_type": "cfpb_enforcement",
+      "jurisdiction": "Federal (CFPB Administrative Proceeding)",
+      "doc_date": "2019-06-05",
+      "applies_to": ["furnisher_duty", "accuracy_procedures"],
+      "summary": "Freedom Mortgage reported inaccurate HMDA data and violated mortgage servicing rules. Illustrative for mortgage-related credit reporting disputes: mortgage servicer errors flow directly into consumer credit files.",
+      "source_url": "https://www.consumerfinance.gov/enforcement/actions/freedom-mortgage-corporation/",
+      "chunks": [
+        {
+          "chunk_type": "finding",
+          "position": 1,
+          "citation_label": "Finding",
+          "applies_to": ["furnisher_duty", "accuracy_procedures"],
+          "content": "Freedom Mortgage's data reporting failures spanned HMDA obligations and servicing accuracy, with downstream effects on consumer credit reports where inaccurate mortgage tradelines were reported. Mortgage furnishers face the same §1681s-2 duties as any other furnisher."
+        }
+      ]
+    }
+  ]
+}

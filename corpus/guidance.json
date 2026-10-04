@@ -1,0 +1,115 @@
+{
+  "$schema_version": "1.0.0",
+  "$notes": "CFPB supervisory highlights, advisory opinions, and examination procedures. These are agency guidance documents that establish current supervisory expectations for CRAs and furnishers. Not binding law but heavily influential in disputes and litigation.",
+  "documents": [
+    {
+      "citation": "CFPB Supervisory Highlights, Consumer Reporting Special Edition (Fall 2022)",
+      "title": "CFPB SH — Consumer Reporting Special Edition",
+      "source_type": "cfpb_guidance",
+      "jurisdiction": "Federal (CFPB)",
+      "doc_date": "2022-11-30",
+      "applies_to": ["reinvestigation", "furnisher_duty", "accuracy_procedures"],
+      "summary": "CFPB special edition focused on consumer reporting violations found in supervisory examinations of CRAs and furnishers. Documents systemic patterns: automated dispute handling that fails to consider consumer documentation, furnishers rubber-stamping their own records without investigation, and inadequate procedures for handling identity theft blocks under §1681c-2.",
+      "source_url": "https://www.consumerfinance.gov/data-research/research-reports/supervisory-highlights-consumer-reporting-special-edition/",
+      "chunks": [
+        {
+          "chunk_type": "finding",
+          "position": 1,
+          "citation_label": "Finding — Automated Dispute Handling",
+          "applies_to": ["reinvestigation", "accuracy_procedures"],
+          "content": "CFPB examiners found that CRAs use automated systems that do not adequately consider consumer-provided documentation. When consumers submit specific documentation contradicting furnisher data, automated systems often simply forward the dispute to the furnisher and accept whatever verification comes back — without independent evaluation. This violates the §1681i(a)(1) 'reasonable reinvestigation' requirement and echoes the Cortez v. Trans Union holding."
+        },
+        {
+          "chunk_type": "finding",
+          "position": 2,
+          "citation_label": "Finding — Furnisher Investigations",
+          "applies_to": ["furnisher_duty", "reinvestigation"],
+          "content": "Furnishers routinely perform §1681s-2(b) investigations that consist only of comparing the disputed information to their existing internal records — the same records that produced the original report. This 'internal-only' review is inadequate when the dispute provides new information the furnisher's records may not reflect. CFPB expects furnishers to consider all information provided by the CRA (which itself must include all consumer submissions per §1681i(a)(2)(A))."
+        },
+        {
+          "chunk_type": "finding",
+          "position": 3,
+          "citation_label": "Finding — Identity Theft Blocks",
+          "applies_to": ["identity_theft"],
+          "content": "CRAs were found to unlawfully decline §1681c-2 identity theft blocks based on furnisher objections, despite the statute requiring the block to be applied within 4 business days upon proper documentation. Furnisher pushback does not defeat a valid identity theft block — CRAs must apply the block and only unblock if the specific procedures in §1681c-2(c) are satisfied."
+        }
+      ]
+    },
+    {
+      "citation": "CFPB Supervisory Highlights, Issue 27 (Spring 2022)",
+      "title": "CFPB SH Issue 27 — Debt Collection Findings",
+      "source_type": "cfpb_guidance",
+      "jurisdiction": "Federal (CFPB)",
+      "doc_date": "2022-05-02",
+      "applies_to": ["debt_validation", "collection", "false_representation"],
+      "summary": "Documents examination findings against debt collectors regarding FDCPA §1692g validation practices and cease-collection duties. Cite for aggregate patterns of collector misconduct.",
+      "source_url": "https://www.consumerfinance.gov/data-research/research-reports/supervisory-highlights-issue-27-spring-2022/",
+      "chunks": [
+        {
+          "chunk_type": "finding",
+          "position": 1,
+          "citation_label": "Finding — Validation",
+          "applies_to": ["debt_validation", "collection"],
+          "content": "CFPB examiners found debt collectors continued collection activity — including credit reporting — after receiving valid §1692g(b) dispute letters, before providing verification. Continued reporting to CRAs of a disputed debt without validation is itself a §1692e(8) violation (failing to communicate the dispute) and undermines the FDCPA cease-collection rule."
+        }
+      ]
+    },
+    {
+      "citation": "CFPB Advisory Opinion on Fees for Instructing a Consumer Reporting Agency to Reinvestigate (2022)",
+      "title": "CFPB Advisory Opinion — Pay-to-Dispute Fees Illegal",
+      "source_type": "cfpb_guidance",
+      "jurisdiction": "Federal (CFPB)",
+      "doc_date": "2022-11-10",
+      "applies_to": ["reinvestigation", "disclosure_to_consumer"],
+      "summary": "CFPB advisory opinion clarifying that consumer reporting agencies cannot charge consumers to submit disputes, and that any 'expedited handling' or similar fee-based dispute tier is unlawful. Reinforces that §1681i reinvestigations are 'free of charge' as the statute states.",
+      "source_url": "https://www.consumerfinance.gov/rules-policy/final-rules/consumer-reporting-agencies-permissible-purposes-consumer-reports/",
+      "chunks": [
+        {
+          "chunk_type": "guidance",
+          "position": 1,
+          "citation_label": "Opinion",
+          "applies_to": ["reinvestigation"],
+          "content": "Section 1681i explicitly requires CRAs to conduct reinvestigations 'free of charge.' Any attempt by a CRA to gate dispute processing behind a fee — whether framed as 'premium', 'expedited', or 'convenience' — violates the FCRA. Consumers who encounter fee-gated dispute channels should file the dispute for free via the CRA's mandatory free channel and separately complain to the CFPB about the attempted fee gate."
+        }
+      ]
+    },
+    {
+      "citation": "CFPB Bulletin 2013-09 — Representations Regarding Effect of Debt Payments on Credit Reports",
+      "title": "CFPB Bulletin 2013-09 — 'Pay for Delete' Misrepresentations",
+      "source_type": "cfpb_guidance",
+      "jurisdiction": "Federal (CFPB)",
+      "doc_date": "2013-07-10",
+      "applies_to": ["false_representation", "collection", "debt_validation"],
+      "summary": "CFPB bulletin warning that debt collectors and debt buyers making representations about the effect of paying a debt on the consumer's credit report may violate the FDCPA and Dodd-Frank UDAAP provisions if those representations are false or misleading — including 'pay for delete' promises.",
+      "source_url": "https://files.consumerfinance.gov/f/201307_cfpb_bulletin_collections-consumer-credit.pdf",
+      "chunks": [
+        {
+          "chunk_type": "guidance",
+          "position": 1,
+          "citation_label": "Bulletin",
+          "applies_to": ["false_representation", "collection"],
+          "content": "Debt collectors that promise 'pay for delete' — telling consumers a debt will be removed from credit reports upon payment — may violate FDCPA §1692e if they lack authority to actually delete the entry, or if the deletion is contingent on furnisher action they cannot compel. Consumers should not rely on verbal pay-for-delete promises; only written agreements naming specific tradeline deletion are enforceable, and even those are frequently ignored by collectors."
+        }
+      ]
+    },
+    {
+      "citation": "FTC Staff Report — Big Data: A Tool for Inclusion or Exclusion? (2016)",
+      "title": "FTC Staff Report — Big Data and Consumer Reports",
+      "source_type": "cfpb_guidance",
+      "jurisdiction": "Federal (FTC)",
+      "doc_date": "2016-01-06",
+      "applies_to": ["accuracy_procedures", "permissible_purpose"],
+      "summary": "FTC staff report examining how big data analytics interact with FCRA. Establishes that analytics companies producing 'consumer reports' for eligibility decisions are CRAs subject to FCRA, expanding the universe of entities with accuracy obligations.",
+      "source_url": "https://www.ftc.gov/system/files/documents/reports/big-data-tool-inclusion-or-exclusion-understanding-issues/160106big-data-rpt.pdf",
+      "chunks": [
+        {
+          "chunk_type": "guidance",
+          "position": 1,
+          "citation_label": "Analysis",
+          "applies_to": ["accuracy_procedures"],
+          "content": "Companies that assemble consumer information from multiple sources and provide it to third parties for credit, employment, insurance, or housing decisions are consumer reporting agencies under FCRA §603(f), regardless of whether they market themselves as such. This means alternative data providers, tenant screening companies, and employment background checkers are subject to §1681e(b) accuracy requirements and §1681i dispute procedures."
+        }
+      ]
+    }
+  ]
+}

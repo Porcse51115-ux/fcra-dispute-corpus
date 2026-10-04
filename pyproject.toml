@@ -1,0 +1,43 @@
+[project]
+name = "fcra-dispute-corpus"
+version = "0.1.0"
+description = "A curated FCRA/FDCPA corpus for AI-powered consumer credit dispute systems"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT AND CC-BY-4.0" }
+authors = [{ name = "Matthew Shea" }]
+keywords = ["fcra", "fdcpa", "credit-reporting", "rag", "legal-nlp", "corpus"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Legal Industry",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+[project.optional-dependencies]
+# scripts/validate.py and scripts/stats.py — stdlib only
+# scripts/example_rag.py needs these:
+rag = [
+    "voyageai>=0.2.0",
+    "sqlite-vec>=0.1.0",
+    "numpy>=1.26.0",
+]
+dev = [
+    "pytest>=7.4.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/Porcse51115-ux/fcra-dispute-corpus"
+Repository = "https://github.com/Porcse51115-ux/fcra-dispute-corpus"
+Issues = "https://github.com/Porcse51115-ux/fcra-dispute-corpus/issues"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+# No installable Python package — scripts are run directly from scripts/
+packages = []
